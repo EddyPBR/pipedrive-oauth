@@ -1,6 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
+import { Typography } from "antd";
+
+const { Title } = Typography;
+
 const Home: NextPage = () => {
   return (
     <>
@@ -11,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Hello World!</h1>
+        <Title>Hello World!</Title>
       </main>
     </>
   );
