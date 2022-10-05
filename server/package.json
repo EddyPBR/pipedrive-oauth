@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "@prisma/client": "^4.4.0",
+    "celebrate": "^15.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "dotenv-cli": "^6.0.0",
