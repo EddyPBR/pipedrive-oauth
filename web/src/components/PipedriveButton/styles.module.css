@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  background: #389e0d;
+  font-weight: 500;
+  transition: background 0.2s;
+  border: none;
+  height: 3rem;
+}
+
+.button span {
+  margin-top: 0.5rem !important;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background: #52c41a;
+}
